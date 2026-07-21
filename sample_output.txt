@@ -1,0 +1,11 @@
+Illustrative console output (counts vary as CMS publishes updates):
+
+2026-07-21 16:05:10,118 | INFO | MainThread | cms_pipeline.pipeline | Run 1: discovered=71 selected=71 skipped=0 dry_run=False
+2026-07-21 16:05:13,449 | INFO | MainThread | cms_pipeline.pipeline | SUCCESS | ynj2-r877 | rows=123456 | bytes=18422931 | data/processed/ynj2-r877__0__Complications_and_Deaths-Hospital.csv
+2026-07-21 16:05:14,922 | INFO | MainThread | cms_pipeline.pipeline | SUCCESS | qqw3-t4ie | rows=58 | bytes=22480 | data/processed/qqw3-t4ie__0__Complications_and_Deaths-National.csv
+Run 1 completed: discovered=71, selected=71, succeeded=71, skipped=0, failed=0.
+
+Illustrative second daily run with no CMS changes:
+
+2026-07-22 02:00:01,015 | INFO | MainThread | cms_pipeline.pipeline | Run 2: discovered=71 selected=0 skipped=71 dry_run=False
+Run 2 completed: discovered=71, selected=0, succeeded=0, skipped=71, failed=0.
